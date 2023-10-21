@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de usuario</title>
+    <link rel="stylesheet" type="text/css" href="registro.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de usuario</h2>
+        <form action="registro.php" method="post" onsubmit="return validarFormulario()">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required><br><br>
+
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo" id="correo" required><br><br>
+
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" name="contraseña" id="contraseña" required><br><br>
+
+            <input type="submit" value="Registrar" id="registro">
+        </form>
+        <a href="javascript:history.back()">Volver</a> <!-- Botón de regreso -->
+    </div>
+
+    <script src="registro.js"></script> <!-- Agrega el archivo JavaScript -->
+</body>
+</html>

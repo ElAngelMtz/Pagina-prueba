@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lugares Turísticos de México</title>
+    <link rel="stylesheet" type="text/css" href="turismo.css">
+</head>
+<body>
+    <header>
+        <h1>Lugares Turísticos de México</h1>
+        <nav>
+            <ul>
+                
+                <li><a href="Login.html">Iniciar Sesión</a></li>
+                <li><a href="Registro.html">Registro</a></li>
+                <li><a href="perfil.html">Mi Perfil</a></li>
+                <li><a href="https://tipsparatuviaje.com/lugares-turisticos-de-mexico/">Más Información</a></li>
+                <li><a href="publicaciones.html">Publicaciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contenido">
+        <h2>Ciudades y Lugares de Interés en México</h2>
+        <p>México es un país lleno de belleza y cultura. Algunos de los lugares turísticos más destacados incluyen:</p>
+        <ul>
+            <li>
+                <h3>Ciudad de México</h3>
+                <img src="imagenes/ciudad_mexico.jpg" alt="Ciudad de México">
+                <p>La capital de México es una ciudad vibrante llena de historia y cultura.</p>
+            </li>
+            <li>
+                <h3>Cancún y la Riviera Maya</h3>
+                <img src="imagenes/cancun.jpg" alt="Cancún">
+                <p>Las hermosas playas y la vida nocturna hacen de Cancún un destino popular.</p>
+            </li>
+            <li>
+                <h3>Chichén Itzá</h3>
+                <img src="imagenes/chichen_itza.jpg" alt="Chichén Itzá">
+                <p>Este sitio arqueológico maya es famoso por su pirámide.</p>
+            </li>
+            <li>
+                <h3>Guadalajara</h3>
+                <img src="imagenes/guadalajara.jpg" alt="Guadalajara">
+                <p>La "Perla Tapatía" es conocida por su música, tequila y arquitectura.</p>
+            </li>
+            <li>
+                <h3>San Miguel de Allende</h3>
+                <img src="imagenes/san_miguel.jpg" alt="San Miguel de Allende">
+                <p>Un encantador pueblo colonial con calles empedradas y arquitectura colorida.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="opiniones">
+        <h2>Opiniones de Visitantes</h2>
+        <form action="procesar_opinion.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required><br><br>
+
+            <label for="opinion">Opinión:</label>
+            <textarea name="opinion" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Publicar Opinión">
+        </form>
+
+        <!-- Sección para mostrar las opiniones de los usuarios -->
+        <div class="opiniones-lista">
+            <!-- Aquí se mostrarán las opiniones de los usuarios -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Lugares Turísticos de México</p>
+    </footer>
+</body>
+</html>

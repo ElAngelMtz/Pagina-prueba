@@ -1,0 +1,66 @@
+/* Estilos para la página de Inicio de Sesión */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00843D; /* Verde de la bandera de México */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    background-color: #FFFFFF; /* Blanco */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000000; /* Letras en negro */
+}
+
+h2 {
+    color: #000000; /* Letras en negro */
+    text-align: center;
+    margin-top: 20px; /* Centrar arriba */
+}
+
+form {
+    text-align: center;
+}
+
+#login {
+    background-color: #00843D; /* Verde de la bandera de México */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+a {
+    color: #00843D; /* Verde de la bandera de México */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #006128; /* Verde más oscuro al pasar el ratón */
+}

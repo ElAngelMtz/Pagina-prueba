@@ -1,0 +1,64 @@
+/* Estilos para la página de Publicaciones de Usuarios */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00843D; /* Verde de la bandera de México */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+section.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section h2 {
+    color: #00843D; /* Verde de la bandera de México */
+}
+
+section .publicacion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+section .publicacion h3 {
+    color: #00843D; /* Verde de la bandera de México */
+}
+
+footer {
+    background-color: #00843D;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}

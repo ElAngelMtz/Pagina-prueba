@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cambiar Contraseña</title>
+    <link rel="stylesheet" type="text/css" href="cambiar_contraseña.css">
+</head>
+<body>
+    <header>
+        <h1>Cambiar Contraseña</h1>
+        <nav>
+            <ul>
+                <li><a href="perfil.html">Mi Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contenido">
+        <h2>Ingresa la Nueva Contraseña</h2>
+        <form action="procesar_cambio_contraseña.php" method="post">
+            <label for="contraseña_actual">Contraseña Actual:</label>
+            <input type="password" name="contraseña_actual" required><br><br>
+
+            <label for="nueva_contraseña">Nueva Contraseña:</label>
+            <input type="password" name="nueva_contraseña" required><br><br>
+
+            <label for="confirmar_contraseña">Confirmar Nueva Contraseña:</label>
+            <input type="password" name="confirmar_contraseña" required><br><br>
+
+            <input type="submit" value="Cambiar Contraseña">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Cambiar Contraseña</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* Estilos para la página de Lugares Turísticos de México */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00843D; /* Verde de la bandera de México */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+section.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+section h3 {
+    color: #00843D; /* Verde de la bandera de México */
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+section.opiniones {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+section.opiniones h2 {
+    color: #00843D; /* Verde de la bandera de México */
+}
+
+section.opiniones form {
+    margin-top: 20px;
+}
+
+section.opiniones label {
+    display: block;
+    font-weight: bold;
+}
+
+section.opiniones input[type="text"],
+section.opiniones textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section.opiniones input[type="submit"] {
+    background-color: #00843D; /* Verde de la bandera de México */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.opiniones-lista {
+    margin-top: 20px;
+}
+
+section.opiniones-lista .opinion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #F5F5F5;
+}
+
+footer {
+    background-color: #00843D;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
